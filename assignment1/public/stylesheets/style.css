@@ -1,0 +1,96 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #3AAFA9;
+}
+
+a {
+  color: #00B7FF;
+  padding: 0 3px;
+}
+
+img {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 120px;
+}
+
+#headline { 
+  color: white;
+}
+
+#main-title {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#main-description {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+#search-section {
+  background-color: #EBFFFE;
+  padding: 1% 30px;
+}
+
+#search-description {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #3AAFA9;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-inline input {
+  width: 70%;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+}
+
+#searched-location {
+  margin-top: 20px;
+  color: #2B7A78;  
+}
+
+#location-name {
+  color: #2B7A78;
+  font-weight: bold;
+}
+
+#result-list {
+  border: 1px solid lightgrey;
+  background-color: white;
+  height: 500px;
+  max-height: 700px;
+  overflow: auto;
+  padding: 1% 0 1% 2%;
+}
+
+#map-container {
+  background-color: #EBFFFE;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#myMap {
+  position: relative;
+  height: 750px;
+}
